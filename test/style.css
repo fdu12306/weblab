@@ -1,0 +1,60 @@
+:root{
+    --primary:#1940ee;
+    --grey:#f7f7f7;
+    --white:#fff;
+
+    --xs: 4px;
+    --s: 8px;
+    --m: 16px;
+    --lg: 24px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,600");
+
+body{
+    font-family:"Open Sans", sans-serif;
+}
+
+.u_textCenter{
+    text-align: center;
+}
+
+.navTitle{
+    color: var(--white);
+    font-size: 20px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.navContainer{
+    background-color: var(--primary);
+    padding: var(--s) var(--m);
+}
+
+.avatarContainer{
+    padding: 0 35%;
+}
+
+.avatar{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: block;
+    padding-top: 100%;
+    border-radius: 50%;
+    background-image: url("https://img.zcool.cn/community/016a2659715bc6a8012193a3287547.jpg@2o.jpg");
+    background-position-y: center;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.u-flex{
+    display: flex;
+}
+
+.subContainer{
+    flex-grow: 1;
+    flex-basis: 0;
+}
